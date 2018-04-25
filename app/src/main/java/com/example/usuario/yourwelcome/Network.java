@@ -87,8 +87,12 @@ public class Network extends Fragment {
     }
 
     public void insertDatabase(String name){
-        String query="insert into estudiante (name) values ('"+name+"');";
-        db.execSQL(query);
+        if(!name.isEmpty()) {
+            String query = "insert into estudiante (name) values ('" + name + "');";
+            db.execSQL(query);
+        }else {
+            Toast.makeText(this.getContext(),"El nombre del estudiante no puede estar vacio.",Toast.LENGTH_LONG).show();
+        }
     }
 
     @Override

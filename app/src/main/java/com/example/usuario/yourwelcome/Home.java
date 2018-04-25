@@ -168,7 +168,6 @@ public class Home extends AppCompatActivity implements View.OnClickListener, Net
         protected void onCancelled() {
             super.onCancelled();
             flag=false;
-
         }
     }
 }

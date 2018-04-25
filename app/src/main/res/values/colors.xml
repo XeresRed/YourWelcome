@@ -5,4 +5,13 @@
     <color name="colorAccent">#FF4081</color>
     <color name="btnHome">#000000</color>
     <color name="white">#FFFFFF</color>
+
+    <color name="fondo">#424242</color>
+    <color name="primary_dark">#C2185B</color>
+    <color name="primary_light">#F8BBD0</color>
+    <color name="accent">#607D8B</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="FondoComp">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
 </resources>

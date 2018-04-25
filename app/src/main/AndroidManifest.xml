@@ -25,7 +25,12 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".HomeApp"></activity>
+        <activity android:name=".HomeApp" />
+
+        <service
+            android:name=".Servicios.MyService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
